@@ -1,0 +1,48 @@
+.background__sign-in {
+  background-color: var(--clr-light-grey);
+  height: 100%;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+.sign-in__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.sign-in__title {
+  font-size: var(--size-xl);
+  color: var(--clr-light-grey-blue);
+}
+
+.sign-in__description {
+  text-align: center;
+  max-width: 35ch;
+}
+
+.hero__search-bar-input {
+  width: 20rem;
+  height: 3rem;
+  border: 1px solid var(--clr-de-blue);
+  border-radius: 3px;
+}
+
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+/* @media (min-width: 1024px) {} */
+
+/* xl */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */
