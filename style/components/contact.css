@@ -1,0 +1,85 @@
+.contact {
+  background-color: var(--clr-dark-blue);
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.contact__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2.5rem;
+}
+
+.contact__wrapper1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.contact__logo {
+  color: var(--clr-light-grey-blue);
+  cursor: pointer;
+}
+
+.contact__phone {
+  color: var(--clr-light-grey-blue);
+  cursor: pointer;
+}
+
+.contact__phone-img {
+  cursor: pointer;
+
+  width: 20px;
+  height: 20px;
+}
+
+.contact__wrap1 {
+  cursor: pointer;
+
+  display: flex;
+  gap: 1rem;
+}
+
+.contact__email-img {
+  cursor: pointer;
+
+  width: 20px;
+  height: 20px;
+}
+
+.contact__email {
+  cursor: pointer;
+
+  color: var(--clr-light-grey-blue);
+}
+
+/*  */
+.contact__wrapper2 {
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: column;
+  color: var(--clr-light-grey-blue);
+  gap: 1rem;
+}
+
+.contact__wrapper3 {
+  display: flex;
+  cursor: pointer;
+
+  flex-direction: column;
+  color: var(--clr-light-grey-blue);
+  gap: 1rem;
+}
+
+.icons {
+  display: flex;
+  cursor: pointer;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20px;
+  gap: 0.5rem;
+}

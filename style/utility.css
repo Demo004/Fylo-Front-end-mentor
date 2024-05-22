@@ -26,9 +26,9 @@
   padding-right: 2rem;
 }
 
-.section {
-  margin-top: 5rem;
-}
+/* .section {
+  padding-left: 5rem;
+} */
 
 .loading {
   filter: blur(40px) grayscale(100%);
