@@ -45,7 +45,7 @@
 .contact__email-img {
   cursor: pointer;
   width: 20px;
-  height: 20px;
+  height: 18px;
 }
 
 .contact__email {
@@ -77,7 +77,7 @@
   cursor: pointer;
   margin-top: 2rem;
   width: 20px;
-  gap: 0.5rem;
+  gap: .5rem;
 }
 
 .icon {
@@ -94,20 +94,37 @@
 /* @media (min-width: 768px) {} */
 
 /* lg */
-/* @media (min-width: 1024px) {} */
+@media (min-width: 1024px) {
+  .contact__wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 9rem;
+  }
+  .icon {
+    display: flex;
+    cursor: pointer;
+    width: 20px;
+    gap: .5rem;
+  }
+
+  .icons {
+    display: none;
+  }
+}
 
 /* xl */
 @media (min-width: 1280px) {
   .contact__wrapper {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    gap: 12rem;
   }
+
   .icon {
     display: flex;
     cursor: pointer;
     width: 20px;
-    gap: 0.5rem;
+    gap: .5rem;
   }
 
   .icons {

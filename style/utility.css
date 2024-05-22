@@ -16,8 +16,6 @@
 /* 2xl */
 /* @media (min-width: 1536px) {} */
 
-
-
 .container {
   width: 100%;
   margin-left: auto;
@@ -26,17 +24,10 @@
   padding-right: 2rem;
 }
 
-/* .section {
-  padding-left: 5rem;
-} */
-
-.loading {
-  filter: blur(40px) grayscale(100%);
-}
-
-.loaded {
-  filter: blur(0) grayscale(0);
-  transition: 0.7s ease-in-out;
+.section {
+  width: 100%;
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 /* xs */
@@ -75,8 +66,8 @@
 }
 
 /* 2xl */
-/* @media (min-width: 1536px) {
+@media (min-width: 1536px) {
   .container {
     max-width: 1536px;
   }
-} */
+}
