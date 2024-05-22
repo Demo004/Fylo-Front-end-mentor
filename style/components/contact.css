@@ -78,8 +78,8 @@
   display: flex;
   cursor: pointer;
   margin-top: 2rem;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 10rem;
+  margin-right: 10rem;
   width: 20px;
   gap: 0.5rem;
 }
