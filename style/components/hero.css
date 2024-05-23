@@ -34,8 +34,9 @@
 }
 
 .hero__search-bar {
+  width: fit-content;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 1rem;
 }
 
@@ -61,7 +62,6 @@
 
 /* xs */
 /* @media (min-width: 475px) {} */
-
 
 /* sm */
 /* @media (min-width: 640px) {} */
@@ -128,7 +128,7 @@
 
   .hero__search-bar {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 1.5rem;
   }
 
